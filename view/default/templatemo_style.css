@@ -1,0 +1,185 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #666;
+    font-family: Helevetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+a, a:link, a:visited {
+    color: #CC0000;
+}
+
+a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+h3 {
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    color: #000;
+}
+
+.templatemo_list {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+    border: 2px solid;
+    border-bottom: none;
+}
+
+.templatemo_list li {
+    height: 30px;
+    padding: 0 0 0 25px;
+    line-height: 1em;
+    border-bottom: 2px solid;
+    position: relative;
+
+}
+
+.templatemo_list li:hover {
+    background-color: #999999;
+    color: white;
+}
+
+.templatemo_list li a {
+    position: absolute;
+    color: #666;
+    text-decoration: none;
+    top: 9px;
+}
+
+#templatemo_sidebar {
+    clear: both;
+    float: left;
+    width: 250px;
+    margin-left: 80px;
+    margin-top: 115px;
+}
+
+#menu {
+
+    float: right;
+    margin-right: 100px;
+
+}
+
+#menu .menu_list {
+    clear: both;
+    border: 2px solid;
+    border-left: none;
+    wight: 100px;
+    height: 25px;
+    padding: 0;
+}
+
+#menu .menu_list :hover {
+    background-color: #999999;
+}
+
+#menu .menu_list li {
+    float: right;
+    list-style: none;
+    height: 25px;
+    width: 90px;
+    border-left: 2px solid;
+    position: relative;
+
+}
+
+#menu .menu_list li a {
+    position: absolute;
+    left: 15px;
+    top: 2px;
+    color: black;
+    text-decoration: none;
+
+}
+
+#logo {
+    padding-top: 20px;
+    margin-left: 80px;
+    float: left;
+}
+
+#content {
+
+    width: 70%;
+    height: auto;
+    /*overflow-x:hidden;*/
+    float: right;
+    margin-top: 0;
+
+}
+
+.input_form {
+    margin-left: 15px;
+    margin-top: 5px;
+
+}
+
+#update:checked + .hiden {
+    visibility: visible;
+}
+
+.hiden {
+
+    margin: 0;
+    visibility: hidden;
+}
+
+#books, #authors, #publishers {
+    display: none;
+}
+
+#update:checked + .hiden {
+    display: block;
+}
+
+input.books:checked ~ div#books {
+    display: block;
+}
+
+input.authors:checked ~ div#authors {
+    display: block;
+}
+input.publishers:checked ~ div#publishers{
+    display: block;
+}
+table {
+    width: 100%; /* Ширина таблицы */
+    border: 4px double black; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+}
+th {
+    text-align: left; /* Выравнивание по левому краю */
+    background: #ccc; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+td {
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+
+
+
